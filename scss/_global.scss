@@ -102,3 +102,13 @@ img::selection {
 img::-moz-selection {
     background: transparent;
 }
+
+// Get rid of animation on small screens
+@media (max-width: 767px) {
+    .animated {
+        display: none;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}

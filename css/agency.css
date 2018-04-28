@@ -101,6 +101,15 @@ img::-moz-selection {
   background: transparent;
 }
 
+@media (max-width: 767px) {
+  .animated {
+    display: none;
+  }
+  p {
+    font-size: 0.9em;
+  }
+}
+
 #mainNav {
   background-color: #212529;
 }
