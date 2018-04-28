@@ -8,11 +8,11 @@ p {
 }
 
 a {
-  color: #faf577;
+  color: #000;
 }
 
 a:hover {
-  color: #f8f146;
+  text-decoration: underline;
 }
 
 .text-primary {
@@ -47,7 +47,7 @@ section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -69,13 +69,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #faf577;
-  border-color: #faf577;
+  background-color: #ced4da;
+  border-color: #495057;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #f9f252 !important;
-  border-color: #f9f252 !important;
+  border-color: #98a2ac !important;
   color: white;
 }
 
@@ -195,7 +195,7 @@ header.masthead .intro-text .intro-lead-in {
 
 header.masthead .intro-text .intro-heading {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 35;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -203,7 +203,8 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    margin-right: 25em;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -215,7 +216,7 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-heading {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 35px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;

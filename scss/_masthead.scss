@@ -1,52 +1,53 @@
 // Styling for the masthead
 header.masthead {
-  // text-align: center;
-  color: RGBA(5, 10, 136, 1);
-  background-image: url("../img/apple.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  @include background-cover;
-  .intro-text {
-    // padding-top: 300px;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    .intro-lead-in {
-      font-size: 22px; // text-shadow: 1px 1px 2px black;
-      font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
-      @include serif-font;
+    // text-align: center;
+    color: RGBA(5, 10, 136, 1);
+    background-image: url("../img/apple.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    @include background-cover;
+    .intro-text {
+        // padding-top: 300px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        .intro-lead-in {
+            font-size: 22px; // text-shadow: 1px 1px 2px black;
+            font-style: italic;
+            line-height: 22px;
+            margin-bottom: 25px;
+            @include serif-font;
+        }
+        .intro-heading {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 35;
+            margin-bottom: 25px;
+            @include heading-font;
+        }
     }
-    .intro-heading {
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 35;
-      margin-bottom: 25px;
-      @include heading-font;
-    }
-  }
 }
 
 @media (min-width: 768px) {
-  header.masthead {
-    .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
-      .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 45px;
-        margin-bottom: 25px;
-        @include serif-font;
-      }
-      .intro-heading {
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 35px;
-        margin-bottom: 50px;
-        @include heading-font;
-      }
+    header.masthead {
+        .intro-text {
+            margin-right: 25em;
+            padding-top: 200px;
+            padding-bottom: 200px;
+            .intro-lead-in {
+                font-size: 40px;
+                font-style: italic;
+                line-height: 45px;
+                margin-bottom: 25px;
+                @include serif-font;
+            }
+            .intro-heading {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 35px;
+                margin-bottom: 50px;
+                @include heading-font;
+            }
+        }
     }
-  }
 }
