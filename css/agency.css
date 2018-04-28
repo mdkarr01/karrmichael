@@ -170,6 +170,7 @@ img::-moz-selection {
 
 header.masthead {
   color: RGBA(5, 10, 136, 1);
+  text-align: center;
   background-image: url("../img/apple.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -186,17 +187,17 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 32px;
   font-style: italic;
-  line-height: 22px;
+  line-height: 42px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
   font-size: 24px;
-  font-weight: 600;
-  line-height: 35;
+  font-weight: 400;
+  line-height: 35px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -204,22 +205,17 @@ header.masthead .intro-text .intro-heading {
 @media (min-width: 768px) {
   header.masthead .intro-text {
     margin-right: 25em;
-    padding-top: 200px;
+    text-align: left;
+    padding-top: 300px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
-    line-height: 45px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 40px;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 35px;
     margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
@@ -453,7 +449,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #faf577;
+  background-color: RGBA(5, 10, 136, 0.6);
 }
 
 .timeline > li .timeline-image h4 {
