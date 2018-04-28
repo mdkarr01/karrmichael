@@ -112,3 +112,9 @@ img::-moz-selection {
         font-size: 0.9em;
     }
 }
+
+@media (max-width: 599px) {
+    .py-5 {
+        display: none;
+    }
+}

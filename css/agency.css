@@ -110,6 +110,12 @@ img::-moz-selection {
   }
 }
 
+@media (max-width: 599px) {
+  .py-5 {
+    display: none;
+  }
+}
+
 #mainNav {
   background-color: #212529;
 }
