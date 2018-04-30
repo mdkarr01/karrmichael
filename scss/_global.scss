@@ -105,8 +105,9 @@ img::-moz-selection {
 
 // Get rid of animation on small screens
 @media (max-width: 767px) {
-    .animated {
-        display: none;
+    h1 {
+        font-size: 80%;
+        font-weight: 500;
     }
     p {
         font-size: 0.9em;
