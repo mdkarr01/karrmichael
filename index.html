@@ -88,7 +88,7 @@
         <div class="intro-lead-in">Web Design &amp; Development</div>
         <div class="intro-heading">We craft custom websites that deliver results for entrepreneurs, organizations and established brands. Have an idea?
           Let's bring it to life together.</div>
-        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
     </div>
   </header>
@@ -147,7 +147,7 @@
         <div class="col-md-6">
           <div class="featured-text">
             <h2 class="pb-3">
-              <a class="featured-link" href="https://www.gillespiecomedy.com" target="_blank" rel="noopener">Gillespiecomedy.com</a>
+              <a href="https://www.gillespiecomedy.com" target="_blank" rel="noopener">Gillespiecomedy.com</a>
             </h2>
             <p>Steve needed a site that served as both informational and as publicity for his stand-up, podcasts and other appearances.</p>
             <p>The new website features...</p>
@@ -166,8 +166,8 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <div class="testimonial-text text-muted">&rdquo;Mike has done a fantastic job with my website. He is both efficient and trustworthy. And best of all he
-            never complains when I blame all my career failures on him. Thanks Mike!.&rdquo;</div>
+          <div class="testimonial-text text-muted">&rsquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia ab quibusdam obcaecati adipisci harum
+            repudiandae assumenda! Mollitia ratione exercitationem modi tempora dolores aut repellendus.&lsquo;</div>
         </div>
       </div>
     </div>
@@ -210,7 +210,7 @@
   </section>
 
   <!-- About -->
-  <section id="timeline">
+  <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -232,9 +232,8 @@
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">When CSS was exotic and JavaScript was a dirty word. (Remember blinking text!) Still two great products
-                    were built.
-                    <em>BoostersEdge</em> and
-                    <em>ClubMed</em>. It was a great learning experience during the early days of the web as we know it now.</p>
+                    were built. BoostersEdge and ClubMed. It was a great learning experience during the early days of the
+                    web as we know it now.</p>
                 </div>
               </div>
             </li>
@@ -486,25 +485,6 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-66871250-2');
-  </script>
-
-  <!-- scroll events -->
-  <script>
-    $(function () {
-      $('a[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname ==
-          this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 2000);
-            return false;
-          }
-        }
-      });
-    });
   </script>
 
   <script src="js/noframework.waypoints.min.js"></script>

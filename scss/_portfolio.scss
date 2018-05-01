@@ -61,9 +61,6 @@
     * {
         z-index: 2;
     }
-    .featured-text h2 {
-        text-decoration: underline;
-    }
 }
 
 @media(min-width:767px) {
@@ -149,10 +146,4 @@
     margin-top: 2em;
     font-size: 1.25em;
     font-style: italic;
-}
-
-@media (max-width: 767px) {
-    .featured-text>h2 {
-        font-size: 24px;
-    }
 }
