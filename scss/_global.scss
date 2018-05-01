@@ -70,7 +70,7 @@ section {
 
 .btn-primary {
     background-color: $gray-400;
-    border-color: $gray-700;
+    border-color: $gray-500;
     &:active,
     &:focus,
     &:hover {
@@ -105,9 +105,8 @@ img::-moz-selection {
 
 // Get rid of animation on small screens
 @media (max-width: 767px) {
-    h1 {
-        font-size: 80%;
-        font-weight: 500;
+    section h2.section-heading {
+        font-size: 32px;
     }
     p {
         font-size: 0.9em;
