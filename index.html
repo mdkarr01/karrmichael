@@ -7,25 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Michael Karr">
   <meta name="description" content="Responsive website design and development located in Cedar Rapids, Iowa City, Iowa and the Corridor.">
-  <!-- <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"> -->
-  <!-- <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"> -->
-  <!-- <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"> -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <!-- <link rel="manifest" href="/manifest.json"> -->
+  <link rel="preload" href="./vendor/jquery/jquery.min.js" as="script">
+  <link rel="preload" href="./vendor/bootstrap/js/bootstrap.bundle.min.js" as="script">
+  <link rel="preload" href="./img/apple.jpg" as="image">
+
 
   <title>Michael Karr web and mobile design &amp; development</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/animate.min.css">
+
 
   <!-- Custom fonts for this template -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -43,8 +40,8 @@
   <link href="css/agency.min.css" rel="stylesheet">
 
   <!-- Animation -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-    crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+    crossorigin="anonymous"> -->
 
 
 </head>
@@ -68,7 +65,7 @@
             <a class="nav-link js-scroll-trigger" href="#portfolio">Featured Site</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#testimonial">Testimonials</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -107,7 +104,7 @@
           </span>
           <h4 class="service-heading">E-Commerce</h4>
           <p class="text-muted">Create an online shop for your products and services with a focus on providing the user with a great experience
-            in a secure shopping enviroment.</p>
+            in a secure shopping environment.</p>
         </div>
         <div id="myanimate-2" class="animate_service col-md-4 col-sm-12">
           <span class="fa-stack fa-4x">
@@ -137,7 +134,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">featured site</h2>
-          <h3 class="section-subheading text-muted">&nbsp;</h3>
+          <h3 class="section-subheading text-muted">Cool sites</h3>
         </div>
       </div>
       <div class="row">
@@ -218,7 +215,7 @@
       <div class="row">
         <div class="col-lg-12">
           <ul class="timeline">
-            <li>
+            <li class=" shack-animated">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/shack.jpg" alt="A rundown shack">
               </div>
@@ -228,7 +225,7 @@
                   <h4 class="subheading">Our Humble Beginnings</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">When CSS was exotic and JavaScript was a dirty word. (Remember blinking text!) Still two great products
+                  <p class="text-muted">When CSS was exotic and JavaScript was a dirty word. (Remember blinking text!) Still three great products
                     were built.
                     <em>LaserNews</em>,
                     <em>BoostersEdge</em> and
@@ -236,7 +233,7 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li class="timeline-inverted hawk-animated">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/rh-circle-logo.jpg" alt="Recruiting Hawk logo">
               </div>
@@ -254,7 +251,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="laptop-animated">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/full-service.jpg" alt="laptop computer">
               </div>
@@ -283,7 +280,7 @@
                 </div>
               </div>
             </li> -->
-            <li class="timeline-inverted">
+            <li class="timeline-inverted last-animated">
               <div class="timeline-image">
                 <h4>Be Part
                   <br>Of The
@@ -339,7 +336,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Me</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">Let's talk!</h3>
         </div>
       </div>
       <div class="row">
@@ -362,7 +359,7 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control" id="message" placeholder="What's On Your Mind? *" required data-validation-required-message="Please enter a message."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -495,6 +492,10 @@
       $('.animate_service').css('opacity', 0);
       $('.animated-featured').css('opacity', 0);
       $('.featured-text').css('opacity', 0);
+      $('.shack-animated').css('opacity', 0);
+      $('.hawk-animated').css('opacity', 0);
+      $('.shack-animated').css('opacity', 0);
+      $('.last-animated').css('opacity', 0);
       // $('.test-animation-1').css('opacity', 0);
       // $('.test-animation-2').css('opacity', 0);
 
@@ -512,6 +513,16 @@
         handler: function () {
           $('.animated-featured').addClass('animated rotateInUpLeft');
           $('.featured-text').addClass('animated fadeInLeft');
+        }
+      })
+      var waypoint = new Waypoint({
+        element: document.getElementById('about'),
+        offset: '50%',
+        handler: function () {
+          $('.laptop-animated').addClass('animated fadeInRight');
+          $('.shack-animated').addClass('animated fadeInRight');
+          $('.hawk-animated').addClass('animated fadeInLeft');
+          $('.last-animated').addClass('animated fadeInUp');
         }
       })
 

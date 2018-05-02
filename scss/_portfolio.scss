@@ -1,5 +1,8 @@
 // Styling for the portfolio section
 #portfolio {
+    .featured-text h2 {
+        text-decoration: underline;
+    }
     .portfolio-item {
         right: 0;
         margin: 0 0 15px;
@@ -146,4 +149,29 @@
     margin-top: 2em;
     font-size: 1.25em;
     font-style: italic;
+}
+
+@media (max-width: 767px) {
+    #portfolio {
+        img {
+            margin: 2em 0;
+        }
+        .featured-text {
+            margin-bottom: 2em;
+        }
+        .featured-text h2 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+    #portfolio {
+        .featured-text h2 {
+            font-size: 24px;
+        }
+        .featured-image p {
+            margin: 4rem 0;
+        }
+    }
 }

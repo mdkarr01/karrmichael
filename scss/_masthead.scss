@@ -5,7 +5,7 @@ header.masthead {
     background-image: url('../img/apple.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center center; // height: 100vh;
     @include background-cover;
     .intro-text {
         padding-top: 150px;
@@ -25,6 +25,12 @@ header.masthead {
             margin-bottom: 25px;
             @include heading-font;
         }
+    }
+}
+
+@media(min-width:1200px) {
+    header.masthead {
+        height: 100vh;
     }
 }
 

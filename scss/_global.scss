@@ -57,6 +57,14 @@ section {
     }
 }
 
+@media(max-width:960px) {
+    section {
+        h2.section-heading {
+            font-size: 32px;
+        }
+    }
+}
+
 // Button Styles
 .btn {
     @include heading-font;
@@ -118,4 +126,25 @@ img::-moz-selection {
     .py-5 {
         display: none;
     }
+}
+
+.hawk-animated {
+    animation-delay: .35s;
+    -moz-animation-delay: .35s;
+    -o-animation-delay: .35s;
+    -webkit-animation-delay: .35s;
+}
+
+.laptop-animated {
+    animation-delay: .75s;
+    -moz-animation-delay: .65s;
+    -o-animation-delay: .65s;
+    -webkit-animation-delay: .65s;
+}
+
+.last-animated {
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
 }
