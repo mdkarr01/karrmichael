@@ -1,0 +1,128 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Michael Karr web and mobile development",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "https://michaelkarr.net/",
+  "short_name": "Michael Karr",
+  "theme_color": "#ffffff",
+  "description": "Responsive website design and development located in Cedar Rapids, Iowa City, Iowa and the Corridor.",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "related_applications": "",
+  "prefer_related_applications": false,
+  "icons": [{
+      "src": "https://www.michaelkarr.net/ms-icon-144x144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://michaelkarr.net/favicon.ico",
+      "sizes": "16x16"
+    },
+    {
+      "src": "https://michaelkarr.net/ms-icon-70x70.png",
+      "sizes": "70x70"
+    },
+    {
+      "src": "https://michaelkarr.net/ms-icon-150x150.png",
+      "sizes": "150x150"
+    },
+    {
+      "src": "https://michaelkarr.net/ms-icon-310x310.png",
+      "sizes": "310x310"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-57x57.png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-60x60.png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-72x72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-76x76.png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-114x114.png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-120x120.png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-144x144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-152x152.png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "https://michaelkarr.net/apple-icon-180x180.png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "https://michaelkarr.net/android-icon-192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://michaelkarr.net/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://michaelkarr.net/favicon-96x96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://michaelkarr.net/favicon-16x16.png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "44x44"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "48x48"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "1240x600"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "300x300"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "88x88"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "24x24"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "50x50"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "620x300"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "36x36"
+    },
+    {
+      "src": "[Embedded]",
+      "sizes": "1024x1024"
+    }
+  ]
+}
