@@ -1,0 +1,7 @@
+.portfolio-modal .modal-content a {
+  color: blue;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(173, 216, 230, 0.9);
+}
